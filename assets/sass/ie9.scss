@@ -1,27 +1,40 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
+@import 'libs/skel';
 
 /*
-	Tessellate by HTML5 UP
+	Aerial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Main Sections */
+/* Wrapper */
 
-	.main {
-		> .content {
-			&.style1 {
-				background: url('images/bgtr.svg') top right no-repeat, url('images/bgbl.svg') bottom left no-repeat, url('images/bgbl.svg') bottom left no-repeat, url('images/overlay.png'), url('images/ie/content-style1.svg');
-			}
+	#wrapper {
+		opacity: 1;
+	}
 
-			&.style2 {
-				background: url('images/bgtr.svg') top right no-repeat, url('images/bgbl.svg') bottom left no-repeat, url('images/bgbl.svg') bottom left no-repeat, url('images/overlay.png'), url('images/ie/content-style2.svg');
-			}
+/* Overlay */
 
-			&.style3 {
-				background: url('images/bgtr.svg') top right no-repeat, url('images/bgbl.svg') bottom left no-repeat, url('images/bgbl.svg') bottom left no-repeat, url('images/overlay.png'), url('images/ie/content-style3.svg');
+	#overlay {
+		opacity: 1;
+	}
+
+/* Header */
+
+	#header {
+		opacity: 1;
+
+		nav {
+			li {
+				opacity: 1;
 			}
 		}
+	}
+
+/* Footer */
+
+	#footer {
+		background-image: url('images/ie/footer.svg');
 	}
